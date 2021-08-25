@@ -1,0 +1,174 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Urbanist', sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+    /*background-color: #0B1D26;*/
+    background: url('../img/Group 18.png') no-repeat center top / cover;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    margin: 0;
+}
+
+/*Header*/
+.nav-container {
+    width: 1760px;
+    margin: 0 auto;
+}
+
+.header {
+
+
+    padding-top: 64px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    display: flex;
+    margin-left: 631px;
+}
+
+.menu li{
+    list-style-type: none;
+    margin-right: 40px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.account {
+    margin-left: auto;
+    list-style-type: none;
+    display: flex;
+}
+
+.content-container {
+    width: 950px;
+    margin: 0 auto;
+    padding-top: 198px;
+    line-height: 22px;
+}
+
+.aside {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+.rectangle {
+    background-color: #FBD784;
+    width: 72px;
+    height: 2px;
+    margin-buttom: 8px;
+    margin-right: 32px;
+}
+
+.desk {
+    text-transform: uppercase;
+    color: #FBD784;
+    letter-spacing: 6px;
+    line-height: 22px;
+}
+
+.slogan {
+    font-family: 'Cormorant Garamond', sans-serif;
+    font-weight: 600;
+    font-size: 88px;
+    line-height: 100px;
+    padding-top: 32px;
+}
+
+.scroll {
+    display: flex;
+    align-items: center;
+    padding-top: 32px;
+    list-style-type: none;
+}
+
+.scroll li {
+    margin-right: 16px;
+
+}
+
+.social-container {
+    margin-top: -238px;
+
+}
+
+.social-container li {
+    list-style-type: none;
+    padding-bottom: 28px;
+}
+
+.Follow-us {
+    writing-mode: tb;
+}
+
+.slider {
+    width: 77px;
+    height: 240px;
+    margin-top: -271px;
+    margin-left: auto;
+}
+
+.slider li {
+    list-style-type: none;
+    padding: 20px 32px 20px 0px;
+    border-right: 3px #CED1D1 solid;
+    transition: border-left-color .2s linear;
+    position: relative;
+}
+
+/* Links */
+
+.nav-link {
+    transition: border-bottom-color .2s linear;
+    position: relative;
+}
+
+.nav-link:after {
+    content: "";
+    width: 100%;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+    display: none;
+}
+
+.nav-link:hover:after{
+    display: block;
+}
+.slider li:after {
+    content: "";
+    width: 3px;
+    height: 100%;
+    background-color: white;
+    position: absolute;
+    left: 100%;
+    top: 0;
+    z-index: 1;
+    display: none;
+
+}
+
+.slider li:hover:after{
+    display: block;
+}
